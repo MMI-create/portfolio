@@ -1,3 +1,18 @@
+<?php
+require_once 'model/homemodel.php';
+require_once 'controller/homecontroller.php';
+
+// connect to the database to get the PDO instance
+$pdo = require 'model/connect.php';
+
+// execute a query home
+$homeModel = new HomeModel($pdo);
+$homeController = new HomeController($homeModel);
+$title = $homeController->getTitle();
+$subtitle = $homeController->getSubtitle();
+$showicons = $homeController->getShowIcons();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -15,6 +30,7 @@
             <h1></h1>
             <nav>
                 <ul>
+                    <li><a href="#home">page de garde</a></li>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#projects">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -24,11 +40,18 @@
     </header>
 
     <main>
+                <!-- Section home -->
+                <section id="home" class="section">
+            <div class="container">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=bbe02dd2b6&attid=0.1&permmsgid=msg-f:1821141932741714268&th=1945fef062a3615c&view=att&zw&disp=safe" alt="Photo de profil" class="profile-pic">
+                <h2 style="font-size: 150px;" _msttexthash="94822" _msthash="10">Mathéo Oliva</h2>
+            </div>
+        </section>
+
         <!-- Section À propos -->
         <section id="about" class="section">
             <div class="container">
-                <img src="https://mail.google.com/mail/u/0?ui=2&ik=bbe02dd2b6&attid=0.1&permmsgid=msg-f:1820757359656509961&th=1944a12bfc812209&view=att&zw&disp=safe" alt="Photo de profil" class="profile-pic">
-                <h2 style="font-size: 150px;" _msttexthash="94822" _msthash="10">Mathéo Oliva</h2>
+                <h3 style="font-size: 20px;">Bienvenue sur mon portfolio ! Je vous invite à découvrir mes travaux et projets ci-dessous. N'hésitez pas à me contacter si vous souhaitez des informations supplémentaires. Bonne visite !</h3>
             </div>
         </section>
 
@@ -62,13 +85,13 @@
                 <h2>Contactez-moi</h2>
                 <form>
                     <label for="name">Nom</label>
-                    <input type="text" id="name" name="name" required aria-required="true">
+                    <input type="text" id="name" name="login" required aria-required="true">
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required aria-required="true">
 
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                    <textarea id="message" name="password" rows="0" required aria-required="true"></textarea>
 
                     <button type="submit">Envoyer</button>
                 </form>
@@ -78,7 +101,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+            <p>&copy; 2025 Mon Portfolio.</p>
         </div>
     </footer>
 </body>
