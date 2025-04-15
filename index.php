@@ -44,7 +44,7 @@ $showicons = $homeController->getShowIcons();
                 <section id="home" class="section">
             <div class="container">
                 <img src="https://mail.google.com/mail/u/0?ui=2&ik=bbe02dd2b6&attid=0.1&permmsgid=msg-f:1821141932741714268&th=1945fef062a3615c&view=att&zw&disp=safe" alt="Photo de profil" class="profile-pic">
-                <h2 style="font-size: 150px;" _msttexthash="94822" _msthash="10">Mathéo Oliva</h2>
+                <h2 style="font-size: 100px;" _msttexthash="94822" _msthash="10">Mathéo Oliva</h2>
             </div>
         </section>
 
