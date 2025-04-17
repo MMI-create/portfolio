@@ -147,7 +147,7 @@ header nav ul li a:focus {
     }
 }
 
-h2 {
+.animated-title {
     animation: fadeColor 15s infinite;
 }
 
