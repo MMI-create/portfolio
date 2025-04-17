@@ -168,17 +168,8 @@ header nav ul li a:focus {
     font-weight: bold;
     color: #333;
     animation: fadeColor 15s infinite;
+    border-color: #000000;
+    border-style: solid 1px;
+    bord
 }
 
-.animated-title::before {
-    content: "Mathéo Oliva";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 180px;
-    color: rgba(0, 0, 0, 0.05); /* gris très clair, effet fond */
-    z-index: 0;
-    white-space: nowrap;
-    pointer-events: none;
-}
