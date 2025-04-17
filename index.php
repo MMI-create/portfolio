@@ -40,18 +40,21 @@ $showicons = $homeController->getShowIcons();
     </header>
 
     <main>
-                <!-- Section home -->
-                <section id="home" class="section">
+        <!-- Section home -->
+        <section id="home" class="section">
             <div class="container">
                 <img src="https://mail.google.com/mail/u/0?ui=2&ik=bbe02dd2b6&attid=0.1&permmsgid=msg-f:1821141932741714268&th=1945fef062a3615c&view=att&zw&disp=safe" alt="Photo de profil" class="profile-pic">
-                <h2 class="animated-title" style="font-size: 100px;">Mathéo Oliva</h2>
+                <h2 class="animated-title">Mathéo Oliva</h2>
             </div>
         </section>
 
         <!-- Section À propos -->
         <section id="about" class="section">
             <div class="container">
-                <h3 style="font-size: 20px;">Bienvenue sur mon portfolio ! Je vous invite à découvrir mes travaux et projets ci-dessous. N'hésitez pas à me contacter si vous souhaitez des informations supplémentaires. Bonne visite !</h3>
+                <h3 class="about-intro">
+                    Bienvenue sur mon portfolio ! Je vous invite à découvrir mes travaux et projets ci-dessous.
+                    N'hésitez pas à me contacter si vous souhaitez des informations supplémentaires. Bonne visite !
+                </h3>
             </div>
         </section>
 
