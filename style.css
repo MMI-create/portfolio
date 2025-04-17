@@ -147,10 +147,6 @@ header nav ul li a:focus {
     }
 }
 
-.animated-title {
-    animation: fadeColor 15s infinite;
-}
-
 /* Projects Section */
 .projects-grid {
     display: grid;
@@ -163,4 +159,13 @@ header nav ul li a:focus {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.animated-title {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    animation: fadeColor 15s infinite;
 }
