@@ -164,7 +164,7 @@ header nav ul li a:focus {
 .animated-title {
     text-align: center;
     font-size: 100px;
-    margin-top: 20px;
+    margin-top: 60px;
     font-weight: bold;
     color: #333;
     animation: fadeColor 15s infinite;
