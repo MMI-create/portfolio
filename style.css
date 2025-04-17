@@ -170,16 +170,7 @@ header nav ul li a:focus {
     animation: fadeColor 15s infinite;
 }
 
-.animated-title2 {
-    position: relative;
-    text-align: center;
-    font-size: 100px;
-    font-weight: bold;
-    color: #333;
-    z-index: 1;
-}
-
-.animated-title2::before {
+.animated-title::before {
     content: "Mathéo Oliva";
     position: absolute;
     top: 50%;
