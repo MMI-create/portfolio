@@ -89,7 +89,7 @@ header nav ul li a:focus {
     text-align: center;
 }
 
-#home, #about, #projects, #contact {
+#about, #projects, #contact {
     padding-top: 200px; /* Compense la barre de navigation fixe */
 }
 
