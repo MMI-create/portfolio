@@ -29,7 +29,7 @@ $showicons = $homeController->getShowIcons();
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="#home">page de garde</a></li>
+                    <li><a href="#home">Accueil</a></li>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#projects">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
