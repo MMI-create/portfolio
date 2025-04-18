@@ -99,6 +99,7 @@ header nav ul li a:focus {
     justify-content: center;
     align-items: center;
     height: 65vh;
+    background-color: #000000;
 }
 
 @keyframes fadeColor {
