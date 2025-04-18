@@ -49,7 +49,7 @@ $showicons = $homeController->getShowIcons();
 
         <!-- Section À propos -->
         <section id="about" class="section">
-            <div class="container">
+            <div class="about-box">
                 <h2>A propos</h2>
                 <div class="about title">
                     <h3 class="about-intro">
