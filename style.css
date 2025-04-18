@@ -98,7 +98,7 @@ header nav ul li a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 200px;
 }
 
 #about h2 {
