@@ -49,6 +49,7 @@ $showicons = $homeController->getShowIcons();
 
         <!-- Section À propos -->
         <section id="about" class="section">
+            <h2>A propos</h2>
             <div class="container">
                 <h3 class="about-intro">
                     Bienvenue sur mon portfolio ! Je vous invite à découvrir mes travaux et projets ci-dessous.
