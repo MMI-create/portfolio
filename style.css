@@ -99,8 +99,32 @@ header nav ul li a:focus {
     justify-content: center;
     align-items: center;
     height: 65vh;
-    background-color: #000000;
 }
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* optionnel : ou garde 65vh si tu préfères */
+    padding-top: 200px; /* garde le padding pour compenser la nav */
+}
+
+.about-box {
+    background-color: #000;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* subtil effet blanc */
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-intro {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.8;
+    text-align: center;
+}
+
 
 @keyframes fadeColor {
     0% {
