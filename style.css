@@ -101,16 +101,6 @@ header nav ul li a:focus {
     height: 65vh;
 }
 
-#about h2 {
-    font-size: 200px;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeInUp 5s ease-out forwards, textShadow 5s ease-in-out infinite alternate;
-}
-
 @keyframes fadeColor {
     0% {
         color: black;
