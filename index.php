@@ -27,7 +27,6 @@ $showicons = $homeController->getShowIcons();
 <body>
     <header>
         <div class="container">
-            <h1></h1>
             <nav>
                 <ul>
                     <li><a href="#home">page de garde</a></li>
