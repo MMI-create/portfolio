@@ -111,25 +111,6 @@ header nav ul li a:focus {
     animation: fadeInUp 5s ease-out forwards, textShadow 5s ease-in-out infinite alternate;
 }
 
-/* Animations */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes textShadow {
-    100% {
-        text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 
-                     0 0 20px rgba(255, 0, 0, 0.6);
-    }
-}
-
 @keyframes fadeColor {
     0% {
         color: black;
