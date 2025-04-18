@@ -123,6 +123,13 @@ header nav ul li a:focus {
     color: #fff;
     line-height: 1.8;
     text-align: center;
+ 
+.about-box {
+    background: #000000;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
 }
 
 
