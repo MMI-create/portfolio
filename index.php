@@ -42,7 +42,7 @@ $showicons = $homeController->getShowIcons();
         <!-- Section home -->
         <section id="home" class="section">
             <div class="container">
-                <img src="profil.webp">
+                <img src="profil.webp" class="profile-pic" alt="Photo de profil">
                 <h1 class="animated-title">Mathéo Oliva</h1>
             </div>
         </section>
