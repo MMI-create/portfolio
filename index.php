@@ -42,7 +42,7 @@ $showicons = $homeController->getShowIcons();
         <!-- Section home -->
         <section id="home" class="section">
             <div class="container">
-                <img src="https://mail.google.com/mail/u/0?ui=2&ik=bbe02dd2b6&attid=0.1&permmsgid=msg-f:1821141932741714268&th=1945fef062a3615c&view=att&zw&disp=safe" alt="Photo de profil" class="profile-pic">
+                <img src="profil.webp">
                 <h1 class="animated-title">Mathéo Oliva</h1>
             </div>
         </section>
