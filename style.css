@@ -180,3 +180,9 @@ header nav ul li a:focus {
     animation: fadeColor 15s infinite;
 }
 
+h2 {
+    font-size: 3rem; /* ou ajuste à 2.5rem, 4rem selon le rendu souhaité */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
