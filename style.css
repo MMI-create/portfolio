@@ -2,7 +2,7 @@
     width: 200px; /* Largeur de l'image */
     height: 200px; /* Hauteur de l'image */
     border-radius: 50%; /* Maintient l'image ronde */
-    transform: translateY(100px); /* Descend l'image de 100px */
+    transform: translateY(200px); /* Descend l'image de 100px */
     object-fit: cover; /* Garde le contenu de l'image bien cadré */
 }
 
